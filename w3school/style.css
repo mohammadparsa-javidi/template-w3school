@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* set font source sans pro */
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* position relative for displacement element than the header */
+.header{
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+    /* arrangement of elements right to left*/
+    direction: rtl;
+    list-style-type: none;
+}
+/* use inline-block to set li next to each other  */
+.header li{
+    display: inline-block;
+}
+.ul-header a{
+    display: inline-block;
+    padding:10px 25px;
+    text-decoration: none;
+    color: black;
+}
+.ul-header .login{
+    background-color: #04AA6D;
+    margin: 15px;
+    color: #fff;
+    width: 170px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+}
+.ul-header .login:hover{
+    text-decoration: underline;
+}
+.ul-header .paid:hover,.space:hover{
+    background-color: #04AA6D;
+    height: 100px;
+    padding: 25px;
+    text-decoration: underline;
+    color: white;
+}
+.ul-header i{
+    padding: 15px;
+}
+.ul-header i:hover{
+    color: #04AA6D;
+}
+.left{
+    direction: ltr;
+    position: absolute;
+    left: 15px;
+    bottom: 60px; 
+}
+.left a{
+    padding: 20px;
+    text-decoration: none;
+    color: black; 
+    
+}
+.left .ul-left a:hover{
+    background-color: #04AA6D;
+    padding-bottom: 60px;
+    text-decoration: underline;
+    color: white;
+}
+.logo{
+    position: relative;
+    top: 20px;
+    left: 0;
+}
+.html-page{
+    position: relative;
+    background-color: #282a35;
+    height: 500px;
+    
+}
+.html-page a:hover{
+    text-decoration: underline;
+    box-shadow: 0 0 5px lightgray;
+}
+.html-intro{
+    font-size: 100px;
+    position: absolute;
+    top: 60px;
+    left: 160px;
+    color: white;
+}
+.html-page h3{
+    /* set position absolute to displacement than the html-page */
+    position: absolute;
+    bottom: 280px;
+    left: 137px;
+    color: white;
+}
+.html-page a{
+    display: inline-block;
+}
+.html-page .learn{
+    background-color: #04AA6D;
+    width: 200px;
+    text-align: center;
+    display:inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 185px;
+    left: 194px;
+    font-size: 20px;
+    border-radius: 40px;
+}
+.html-page .ref{
+    position: absolute;
+    bottom: 90px;
+    left: 194px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    background-color: #fff;
+    width: 200px;
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+}
+.section{
+    width: 600px;
+    height: 400px;
+    background-color: #e7e9eb;
+    position: absolute;
+    right: 30px;
+    top: 70px;
+    border-radius: 10px;
+}
+.section h2{
+    padding: 16px 0 0 15px;
+}
+.child{
+    height: 222px;
+    background-color: #fff;
+    margin: 12px;
+    /* set the left border around child */
+    border-left: 5px solid #04AA6D;
+}
+.section .try{
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #04AA6D;
+    border-radius: 30px;
+    color: white;
+}
+
+.css-page{
+    position: relative;
+    height: 500px;
+    background-color: #FFF4A3;
+}
+.css-page h1{
+    position: absolute;
+    font-size: 100px;
+    top: 90px;
+    left: 240px;
+}
+.css-page .css-disign{
+    position: absolute;
+    top: 230px;
+    left: 185px;
+}
+.css-page a{
+    position: absolute;
+    border-radius: 40px;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    width: 170px;
+    text-align: center;
+}
+.css-page a:hover{
+    text-decoration: underline;
+
+}
+.css-page .learn-css{
+    top: 290px;
+    left: 230px;
+    background-color: #04AA6D;
+}
+.css-page .css-ref{
+    top: 360px;
+    left: 230px;
+    background-color: #282A35;
+}
+.css-page .css-cert{
+    top: 430px;
+    left: 230px;
+    background-color: #FFC0C7;
+    color: black;
+}
+.css-code{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background-color: #e7e9eb;
+    right: 30px;
+    top: 70px;
+    border-radius: 10px;
+}
+.css-code h2{
+    padding: 16px 0 0 15px;
+}
+.code-place{
+    height: 240px;
+    background-color: #fff;
+    margin: 10px;
+    border-left:5px solid #04AA6D;
+}
+.code-place pre{
+    font-size: 15px;
+}
+.css-code .try-css{
+    background-color: #04AA6D;
+    width: 150px;
+    padding: 20px;
+    left: 10px;
+    bottom: 20px; 
+}
+/* all of the div that has position absolute in languages displacement than the language */
+.languages{
+    position: relative;
+    background-color: #282A35;
+    height: 1300px;
+    padding: 10px;
+}
+.languages .framework div:hover{
+    box-shadow: 5px 0 10px lightgray;
+}
+.languages a:hover{
+    text-decoration: underline;
+}
+.languages div{
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.jquery{
+    height: 250px;
+    width: 600px;
+    background-color: #FFF4A3;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+.jquery:hover,.php:hover,.c-plus:hover,.java:hover,.c-sharp:hover,.c-lang:hover{
+    box-shadow: 0 0 10px lightgray;
+}
+.jquery h2{
+    font-size: 50px;
+}
+.jquery p{
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.jquery .jq{
+    background-color: #282a35;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    margin:20px auto;
+
+    border-radius: 20px;
+}
+.php{
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    background-color: #FFC0C7;
+    top: 50px;
+    padding-top: 20px;
+    
+}
+.php h1{
+    padding: 10px;
+    font-size: 40px;
+}
+.php p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.php a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #282a35;
+    width: 200px;
+    margin:45px auto;
+    border-radius: 40px;
+    color: white;
+}
+.c-plus{
+    position: absolute;
+    bottom: 200px;
+    right: 30px;
+    top: 320px;
+    background-color: #D9EEE1;
+    height: 250px;
+    width: 600px;
+}
+.c-plus h2{
+    font-size: 40px;
+    padding-top: 20px;
+}
+.c-plus p{
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+.c-plus a{
+    text-decoration: none;
+    display: block;
+    background-color: #282a35;
+    width: 200px;
+    padding: 10px;
+    margin:35px auto;
+    border-radius: 40px;
+    color: white;
+}
+.java{
+    position: absolute;
+    top: 320px;
+    left: 10px;
+    width: 600px;
+    height: 250px;
+    background-color: #F3ECEA;
+}
+.java h2{
+    font-size: 40px;
+    padding: 25px;
+}
+.java p{
+    padding-bottom: 35px;
+    font-size: 20px;
+    margin: 10px;
+}
+.java a{
+    text-decoration: none;
+    display: block;
+    background-color: #282a35;
+    width: 200px;
+    margin:10px auto;
+    padding: 10px;
+    color: white;
+    border-radius: 40px;
+    
+}
+.c-sharp{
+    position: absolute;
+    right: 30px;
+    top: 650px;
+    background-color: red;
+    width: 600px;
+    height: 170px;
+    background-color: #FFF4A3;
+    
+}
+.c-sharp h2{
+    font-size: 30px;
+    padding-top: 55px;
+}
+.c-lang{
+    position: absolute;
+    bottom: 50px;
+    top: 650px;
+    width: 600px;
+    height: 170px;
+    background-color: #FFC0C7;
+    
+}
+.c-lang h2{
+    font-size: 30px;
+    padding-top: 55px;
+}
+
+.framework h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.react{
+   position: absolute;
+   top: 900px;
+   right: 40px;
+   width: 250px;
+   height: 150px;
+   background-color: #FFC0C7;
+   border-radius: 10px;
+}
+.node{
+    position: absolute;
+    top: 900px;
+    right: 350px;
+    width: 250px;
+    height: 150px;
+    background-color: #96D4D4;
+    border-radius: 10px;
+}
+.kotlin{
+    position: absolute;
+    top: 900px;
+    right: 650px;
+    width: 250px;
+    height: 150px;
+    background-color: #D9EEE1;
+    border-radius: 10px;
+}
+
+.ruby{
+    position: absolute;
+    top: 900px;
+    left: 60px;
+    width: 250px;
+    height: 150px;
+    background-color: #F3ECEA;
+    border-radius: 10px;
+}
+.xml{
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+    width: 250px;
+    height: 150px;
+    background-color: #96D4D4;
+    border-radius: 10px;
+}
+.mysql{
+    position: absolute;
+    bottom: 50px;
+    right: 350px;
+    width: 250px;
+    height: 150px;
+    background-color: #D9EEE1;
+    border-radius: 10px;
+}
+.angular{
+    position: absolute;
+    bottom: 50px;
+    right: 650px;
+    width: 250px;
+    height: 150px;
+    background-color: #F3ECEA;
+    border-radius: 10px;
+}
+.json{
+    position: absolute;
+    left: 55px;
+    bottom: 50px;
+    width: 250px;
+    height: 150px;
+    background-color: #FFF4A3;
+    border-radius: 10px;
+}
